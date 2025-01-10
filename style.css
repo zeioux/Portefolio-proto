@@ -6,7 +6,7 @@ body {
     background: #0d1117;
     color: #ffffff;
     overflow-x: hidden;
-    scroll-behavior: smooth; /* Pour un défilement fluide */
+    scroll-behavior: smooth;
 }
 
 header {
@@ -43,7 +43,7 @@ header .logo {
 
 header .logo:hover {
     transform: scale(1.1);
-    color: #0077a1; /* Ajout d'une nouvelle couleur pour l'effet hover */
+    color: #0077a1;
 }
 
 header nav ul {
@@ -73,7 +73,6 @@ header nav ul li a.active {
     transform: translateY(-3px);
 }
 
-/* Hero Section */
 #hero {
     height: 100vh;
     background: url('https://wallpapercave.com/wp/wp7095307.jpg') no-repeat center center/cover;
@@ -102,7 +101,7 @@ header nav ul li a.active {
     font-size: 4rem;
     margin-bottom: 15px;
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.8);
-    animation: slideInFromLeft 1s ease-out; /* Animation subtile d'apparition */
+    animation: slideInFromLeft 1s ease-out;
 }
 
 @keyframes slideInFromLeft {
@@ -120,7 +119,7 @@ header nav ul li a.active {
     font-size: 1.5rem;
     margin-bottom: 30px;
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
-    animation: slideInFromRight 1s ease-out; /* Animation subtile d'apparition */
+    animation: slideInFromRight 1s ease-out;
 }
 
 @keyframes slideInFromRight {
@@ -151,7 +150,6 @@ header nav ul li a.active {
     transform: scale(1.1);
 }
 
-/* Section About */
 #about {
     display: flex;
     flex-direction: row-reverse;
